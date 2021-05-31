@@ -1,0 +1,40 @@
+body {
+  background-color: aquamarine;
+}
+
+.board {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  zoom: 2;
+}
+
+.row {
+  display: flex;
+  height: 4vh;
+}
+
+.white,
+.black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4vh;
+}
+
+.white img,
+.black img {
+  width: 3vh;
+  height: 3vh;
+}
+
+.white {
+  background-color: #ddd;
+}
+
+.black {
+  background-color: #444;
+}
